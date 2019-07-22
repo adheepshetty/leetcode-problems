@@ -14,7 +14,6 @@ class Solution:
         if not head: return
         prev = head
         cur = head.next
-        dummy = dumy_cur = ListNode(0)
         while cur:
             if prev.val == cur.val:
                 prev.next = cur.next
